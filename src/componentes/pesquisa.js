@@ -1,5 +1,4 @@
 import React from 'react';
-import index from '../index.css';
 
 const SearchBar = ({ handleSearch, handleGenreChange }) => {
   const handleChange = (event) => {
