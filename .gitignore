@@ -1,4 +1,3 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
@@ -7,8 +6,11 @@
 
 # testing
 /coverage
+# Ignorar arquivos .env.local
+.env.local
 
 # production
+# Ignorar diretório build
 /build
 
 # misc
@@ -17,7 +19,14 @@
 .env.development.local
 .env.test.local
 .env.production.local
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários
+*~
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+# Ignorar diretórios do editor
+.vscode/
