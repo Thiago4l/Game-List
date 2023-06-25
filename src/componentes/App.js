@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import SearchBar from './pesquisa';
-import index from '../index.css';
 import Loader from '../componentes/loader';
 
 const App = () => {
